@@ -1,0 +1,179 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+    background-image: url(/mack.jpg);
+    display: flex;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+/* configurações do quadrado central do login*/
+ .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60%;
+    margin-top: 5em;
+    margin-bottom: 10em;
+ }
+ .card{
+    background-color: #ffffff;
+    padding: 40px 30px 10px 30px;
+    border-radius: 10px;
+    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.405);
+ }
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #784200;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+/* configurações dos campos */
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #784200;
+    background-color: transparent;
+    outline: none;
+    min-width: 240px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+ }
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus{
+    border-bottom: 2px solid #085278;
+}
+.label-float label{
+    color: #784200;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #784200;
+}
+
+/* configurações do botão*/
+button{
+    background-color: transparent;
+    transition: all .4s ease-out;
+    border: 2px solid;
+    color: #784200;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12pt;
+    margin: 4px 2px;
+    width: 40%;
+}
+.button1{
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #784200;
+    color: #ffffff;
+    border: 2px solid #784200;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+hr{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+p{
+    color: #784200;
+    font-size: 10pt;
+    text-align: center;
+    padding: 10px;
+}
+
+#social{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px; 
+} 
+
+/* configurações da barra de navegação*/
+nav{
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #085278;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li{
+    display: flex;
+    letter-spacing: 2px;
+    margin-left: 32px;
+    align-items: center;
+    color: #ffffff;    
+}
+
+/* configurações do footer*/
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 17%;   
+    background-color: #848484;
+    color: #BEEDCB;
+    font-size: 18px;
+}
+.footer-content{
+    display: flex;
+    list-style: none;
+}
+.footer-content p{
+    display: flex;
+    margin-left: 32px;
+    color: #ffffff;
+    font-size: large;
+    list-style: none;
+}
