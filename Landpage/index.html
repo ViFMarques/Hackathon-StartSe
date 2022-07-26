@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="landpage.css">
+    <title>IoTruck</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img src="./image/logo4 2.png" alt="Logo">
+            <div class="menu_section">
+                <nav>
+                    <ul>
+                        <li >
+                            <a href="#" class="menu_link">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu_link">Serviços</a>
+                        </li>
+                        <li>
+                            <a href="#" class="menu_link">Fale conosco</a>
+                        </li>
+                        <li>
+                            <button id="button_login"><a href="" id="login_link">Entrar</a></button>
+                        </li>
+                    </ul> 
+                    
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+     <section  class="pages" id="initial_page">
+        <div class="text" id="initial_text">
+            <div>
+                <h2>Guiamos você <br> no seu caminho para o futuro</h2>
+                <p>Fornecemos aos nossos clientes serviços e soluções de TI <br> avançados que garantem sua transformação digital <br> contínua. </p> 
+                <nav>
+                    <button id="button_registrar"><a href="">Registrar</a></button> 
+                </nav>  
+            </div>      
+        </div>
+    </section>
+
+    <section  class="pages" id="about_us_page">
+        
+        <div class="text" id="about_us_text">
+            <div>
+                <h1>Sobre nós</h1>
+                <h2>Um software, vários resultados</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nunc nisl, ornare ornare dui vel, maximus ornare lorem. Etiam posuere rhoncus augue ac scelerisque. Donec elementum pretium ante vel consectetur. Proin mauris ante, ultricies id cursus vel, porttitor lacinia mi. Praesent rhoncus diam eu est euismod placerat. Quisque pharetra dapibus nunc. Donec finibus a tellus eget placerat. Morbi tristique justo urna, sed cursus mi interdum sed. In vel placerat ex. Nulla lorem nunc, tristique at mi quis, tincidunt faucibus justo. Vivamus semper rhoncus dui, a volutpat ex semper sed.</p>
+                 
+            </div>  
+        </div>
+    </section>
+
+    <section  class="pages" id="services_page">
+        
+        <div class="text" id="services_text">
+            <div>
+                <h1>Serviços</h1>
+                <h2>Um software, vários resultados</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nunc nisl, ornare ornare dui vel, maximus ornare lorem. Etiam posuere rhoncus augue ac scelerisque. Donec elementum pretium ante vel consectetur. Proin mauris ante, ultricies id cursus vel, porttitor lacinia mi. Praesent rhoncus diam eu est euismod placerat. Quisque pharetra dapibus nunc. Donec finibus a tellus eget placerat. Morbi tristique justo urna, sed cursus mi interdum sed. In vel placerat ex. Nulla lorem nunc, tristique at mi quis, tincidunt faucibus justo. Vivamus semper rhoncus dui, a volutpat ex semper sed.</p>
+                 
+            </div>  
+        </div>
+    </section>
+
+    <section id="form">
+        <div class="contact">
+            <h2 id="talk_to_us"> Fale conosco</h2>
+            <form action="#">
+                    <div>
+                        <label for="nome" class="obrigatorio">Nome*:</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+                    </div>
+        
+                    <div>
+                        <label for="email" class="obrigatorio">Email*:</label>
+                        <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
+                    </div>
+
+                
+                <div class="text_box">
+                    <label for="mensagem" class="obrigatorio">Mensagem*: </label>
+                    <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem" required></textarea>
+                </div>
+                <div class="button_submit">
+                    <input type="submit" value="Enviar mensagem">
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
+
+</body>
+</html>

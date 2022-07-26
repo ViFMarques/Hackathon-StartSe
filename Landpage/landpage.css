@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+   font-size: 2.5em;
+  }
+
+/*Cabeçalho*/
+
+ header{
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #085278;
+ }
+
+ header .container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80px;
+ }
+
+ header .container img{
+   display: block;
+   margin-left: 20px;
+   height: 50px;
+}
+
+ header nav ul{
+    display: flex;
+ }
+
+ header nav ul li {
+    list-style: none;
+ }
+
+ header nav ul li .menu_link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    transition: all 250ms linear 0s;
+ }
+
+#button_login {
+    border: none;
+    background-color: #784200;
+    color: white;
+    margin:20px 34px;
+    padding: 10px 30px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+ }
+ #login_link {
+   text-decoration: none;
+   color: white;
+ }
+
+ header nav ul li .menu_link:hover {
+   background: rgba(255,255,255,0.15);
+}
+ 
+/* Página inicial*/
+
+.pages {
+   background-size:cover;
+   background-position: top center;
+   position: relative;
+   padding-bottom: 5%;
+   z-index: 1;  
+}
+.pages::after{
+   content: '';
+    position:absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.text {
+   min-height: 100vh;
+   width: 50%;
+   margin-left: 3em ;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Inter',sans-serif;
+   font-weight: 700;
+   color: #085278;
+}
+
+#initial_text h2 {
+   font-size: 2em;
+}
+
+#initial_text p {
+   margin-top: 30px;
+   text-align: justify;
+   font-size: 1.25em;
+}
+
+nav #button_registrar {
+   display: block;
+   margin-top: 50px;
+   border: none;
+   background-color: #784200;
+   color: white;
+   padding: 20px 35px;
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+   border-radius: 6px;
+}
+nav #button_registrar a {
+   text-decoration: none;
+   color: white;
+   font-size: 1.5em;
+}
+#initial_page {
+   background-image: url(./image/background-truck.jpg);
+}
+
+/*Sobre nós*/
+
+
+/*Formulário*/
