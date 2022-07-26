@@ -9,21 +9,97 @@
 </head>
 <body>
     <aside class="menu-lateral">
-        <div><img src="../img/logo4 1.svg" class="logo-aside"></div>
+        <div>
+          <img src="../img/logo4 1.svg" class="logo-aside">
+        </div>
         <div class="user">
-            <img src="../img/usuario.svg" class="user-body">
+            <img src="../img/icon-user.svg" class="user-body">
             <p>Usuario</p>    
         </div>
         
         <nav>
             <ul>
                 <li class="item-1"><img src="../img/dashboard.png" class="menu-image"> Dashboard</li>
-                <li class="item-2"><img src="../img/config.svg" class="menu-image">Config</li>
+                <li class="item-2"><img src="../img/config-completo.svg" class="menu-image">Config.</li>
                 <li class="item-3"><img src="../img/dados.svg" class="menu-image">Dados</li>
                 <li class="item-4"><img src="../img/conta.svg" class="menu-image">Conta</li>
                 <li class="item-5"><img src="../img/sair.svg" class="menu-image">Sair</li>
             </ul>
         </nav>
     </aside>
+    
+    <main id="dashboard">
+        <h1>DASHBOARD</h1>
+        <div id="container">
+          <section id="driver">
+            <div class="img-container">
+              <img src="../assets/person.svg" alt="ícone pessoa">
+              <p><strong>Motorista - João da Silva</strong></p>
+            </div>       
+            <p>Status da operação: <span class="operation-status"><strong>NORMAL</strong></span></p>
+            <p>Botão de pânico: <span class="panic-button"><strong>DESATIVADO</strong></span></p>
+          </section>
+      
+          <section id="delivery">
+            <h2>Prazo para entrega</h2>
+            <p><strong>27/10/2022</strong></p>
+          </section>
+      
+          <section id="vehicle">
+            <h2>Dados do veículo</h2>
+            <div id="vehicle-container">
+              <div id="velocity-container">
+                <h3>Velocidade</h3>
+                <p class="velocity"><strong> 84.0 Km/h</strong></p>
+              </div>
+              <div id="gas-container">
+                <h3>Nível de gasolina</h3>
+                <img src="../assets/gasoline-level.svg" alt="nível de gasolina">
+              </div>
+            </div>
+            
+          </section>
+      
+          <section id="balance">
+            <h2>Balanço</h2>
+            <img src="../assets/balance.svg" alt="Balanço do veículo">
+          </section>
+      
+          <section id="localization">
+            <h2>Localização</h2>
+            <img src="../assets/map.svg" alt="localização do veículo">
+          </section>
+      
+          <section id="environment">
+            <h2>Ambiente</h2>
+            <div id="gas">
+              <h3>Nível de gás</h3>
+              <img src="../assets/gas-level.svg" alt="nível de gases">
+            </div>
+            <div id="environment-container">
+                <div id="humidity">
+                    <h3>Umidade</h3>
+                    <p><strong>25%</strong></p>
+                  </div>
+                  <div id="temperature">
+                    <h3>Tempetarura</h3>
+                    <p><strong>22º C</strong></p>
+                  </div>
+            </div>            
+          </section>
+      
+          <div id="buttons">
+            <div class="button1 button">
+              <button>Caso 1</button>
+            </div>
+            <div class="button2 button">
+              <button>Caso 2</button>
+            </div>
+            <div class="button3 button">
+              <button>Caso 3</button>
+            </div>
+          </div>
+        </div>
+      </main>
 </body>
 </html>
