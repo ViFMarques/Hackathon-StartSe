@@ -79,6 +79,7 @@ img {
     text-align: center;
     color: var(--secondery-color);
     margin-bottom: 40px;
+    padding-top: 20px;
   }
   
   h2 {
@@ -90,26 +91,30 @@ img {
     max-width: var(--container-width);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 250px 500px;
+    grid-template-rows: 20% 25% 45%; 
     grid-gap: 25px 50px;
   }
-  
-  /* ------------------------- driver --------------------- */
-  section#driver {
+
+  section {
     max-width: 55rem;
     border-radius: 15px;
-    padding: 50px;
+    padding-block: 25px; 
     background-color: #D9D9D9;
+    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
   
   
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 25px;
-  
-    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
+    justify-content: space-around;
+    align-items: center;
   }
   
+  /* ------------------------- driver --------------------- */  
+  section#driver {
+    align-items: flex-start;
+    padding-inline: 25px;
+  }
+
   #driver span
    {
     color: #319F43;
@@ -125,41 +130,13 @@ img {
     width: 30px;
   }
   
-  /* ------------------------- delivery --------------------- */
-  section#delivery {
-    max-width: 55rem;
-    border-radius: 15px;
-    padding: 50px; 
-    background-color: #D9D9D9;
-    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
-  
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
+  /* ------------------------- delivery --------------------- */  
   #delivery p {
-    color: red;
+    color: #DA2535;
     font-size: 2.6rem;
   }
   
-  /* ------------------------- vehicle --------------------- */
-  section#vehicle {
-    max-width: 55rem;
-    border-radius: 15px;
-    padding: 50px; 
-    background-color: #D9D9D9;
-    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
-  
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
+  /* ------------------------- vehicle --------------------- */ 
   #vehicle-container {
     display: flex;
     justify-content: center;
@@ -184,7 +161,7 @@ img {
   }
 
   #vehicle p{
-    color: red;
+    color: #DA2535;
     font-size: 2.6rem;
   }
   #vehicle img {
@@ -192,42 +169,73 @@ img {
   }
 
   /* ------------------------- balance --------------------- */
-  section#balance {
-    max-width: 55rem;
-    border-radius: 15px;
-    padding: 50px; 
-    background-color: #D9D9D9;
-    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
-  
-  
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
   #balance img {
     width: 320px;
   }
 
-  /* ------------------------- localization --------------------- */
-  section#localization {
-    max-width: 55rem;
-    border-radius: 15px;
-    padding: 50px; 
-    background-color: #D9D9D9;
-    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
-  
-  
+  /* ------------------------- environment --------------------- */
+  #environment #gas {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 15px;
   }
 
-  #localization img {
-    width: 100%;
+  #environment #environment-container {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+  }
+  
+  #environment #humidity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  } 
+
+  #environment #temperature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  } 
+
+  #environment p {
+    color: #25DA2C;
+    font-size: 2.6rem;
   }
 
-  /* ------------------------- environment --------------------- */
+  /* ------------------------- butons --------------------- */
+#buttons {
+    grid-column-start: 1;
+    grid-column-end: 3;
 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons button {
+    padding: 15px 30px;
+    border: 3px solid var(--secondery-color);
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: var(--secondery-color);
+    background-color: #F8F8F8;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+    box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
+
+}
+
+
+ 
+
+  
+
+  
