@@ -22,15 +22,55 @@
     font-size: 2rem;
     background-color: #F8F8F8;
 }
+
+.logo-aside{
+  width: 235px;
+  margin-bottom: 40px;
+}
+.user-body{
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user p{
+  margin: 0 auto;
+  color: white;
+}
+
+.menu-lateral nav {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.menu-lateral nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
   
 .menu-lateral ul li{
     list-style: none;
     font-size: 20px;
     padding: 14px;
-    margin: 20px;
     cursor: pointer;
     color: white;
+
+    display: flex;
+    align-items: center;
+    gap: 15px
 }
+
+.menu-lateral .item-1 {
+  width: 100%;
+  background-color: #F8F8F8;
+  color: var(--secondery-color);
+}
+
 .menu-lateral{
   padding-top: 20px;
     float: left;
@@ -42,31 +82,11 @@
     align-items: center;
 }
 .menu-image{
-    width: 17px;
-    height: 16px;
+    width: 22px;
     margin-right: 15px;
     align-self: stretch;
 }
-.logo-aside{
-    width: 200px;
-    margin-bottom: 30px;
-}
-.user-body{
-    width: 140px;
-    height: 65px;
-    margin-bottom: 5px;
-}
 
-.user{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.user p{
-    margin: 0 auto;
-    color: white;
-    margin-bottom: 15px;
-}
 
 
 /* ------------------------- MAIN --------------------- */
