@@ -266,23 +266,27 @@
 }
 
   /* ------------------------- FOOTER --------------------- */
-footer{
-  background-color: #848484;
-  height: 200px;
-  font-size: 12px;
-  color: #f8f8f8;
-  font-weight: normal;
-}
-
-footer .container_footer{
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.information_footer{
-  display: flex;
-  justify-content: space-around;
-  width: 60%;
-}
+  footer{
+    padding-block: 30px;
+    background-color: #848484;
+    font-size: 12px;
+    color: #f8f8f8;
+    font-weight: normal;
+ }
+ 
+ footer img {
+    width: 200px;
+ }
+ 
+ footer .container_footer{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100%;
+ }
+ 
+ .information_footer{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+ }
