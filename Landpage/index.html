@@ -13,11 +13,11 @@
 
     <header>
         <div class="container">
-            <img src="./image/logo4 2.png" alt="Logo">
+            <a href="#initial_page"><img src="./image/logo4 2.png" alt="Logo"></a>
             <div class="menu_section">
                 <nav>
                     <ul>
-                        <li >
+                        <li>
                             <a href="#" class="menu_link">Sobre nós</a>
                         </li>
                         <li>
@@ -27,7 +27,7 @@
                             <a href="#" class="menu_link">Fale conosco</a>
                         </li>
                         <li>
-                            <button id="button_login"><a href="" id="login_link">Entrar</a></button>
+                            <a href=""><button id="button_login">Entrar</button></a>
                         </li>
                     </ul> 
                     
@@ -43,9 +43,9 @@
             <div>
                 <h2>Guiamos você <br> no seu caminho para o futuro</h2>
                 <p>Fornecemos aos nossos clientes serviços e soluções de TI <br> avançados que garantem sua transformação digital <br> contínua. </p> 
-                <nav>
-                    <button id="button_registrar"><a href="">Registrar</a></button> 
-                </nav>  
+                
+                <a href="#"><button id="button_registrar">Registre-se</button></a> 
+                  
             </div>      
         </div>
     </section>
@@ -74,33 +74,26 @@
         </div>
     </section>
 
-    <h2 id="talk_to_us"> Fale conosco</h2>
-
-    <section id="form">
-
-        <div class="contact">
-            <form action="#">
-                    <div>
-                        <label for="nome" class="obrigatorio">Nome*:</label>
-                        <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
-                    </div>
-        
-                    <div>
-                        <label for="email" class="obrigatorio">Email*:</label>
-                        <input type="email" name="email" id="email" placeholder="exemplo@email.com" required>
-                    </div>
-
-                
-                <div class="text_box">
-                    <label for="mensagem" class="obrigatorio">Mensagem*: </label>
-                    <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem" required></textarea>
-                </div>
-                <div class="button_submit">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+    <section id="contact">
+        <div id="contact-container">
+          
+            <h2>Entre em contato!</h2>
+            <p>Nos mande uma mensagem!</p>             
+          
+          <form id="form" action="#" method="post">
+            <input id="name" name="name" type="text" required placeholder="Nome">
+            <input id="email" name="email" type="email" required placeholder="E-mail">
+            <input id="tel" name="tel" type="tel" required placeholder="Telefone">
+            <textarea 
+            id="message"
+            name="text"           
+            required="required"          
+            placeholder="Mensagem"  
+            ></textarea>
+            <input type="submit" value="Enviar" id="submit">
+          </form>
         </div>
-    </section>
+      </section>
     </main>
 
     <footer>
@@ -127,6 +120,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
