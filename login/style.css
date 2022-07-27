@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
+
 body {
     position: relative;
     background-image: url(/mack.jpg);
@@ -11,10 +13,12 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
-/* configurações do quadrado central do login*/
+
+/* configurações main */
+
  .container{
     display: flex;
     justify-content: center;
@@ -22,7 +26,9 @@ body {
     height: 60%;
     margin-top: 5em;
     margin-bottom: 10em;
+    min-width: 100vh;
  }
+
  .card{
     background-color: #ffffff;
     padding: 40px 30px 10px 30px;
@@ -34,8 +40,8 @@ h1{
     text-align: center;
     margin-bottom: 20px;
     color: #784200;   
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- }
+    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
 
 /* configurações dos campos */
 
@@ -79,6 +85,7 @@ h1{
 }
 
 /* configurações do botão*/
+
 button{
     background-color: transparent;
     transition: all .4s ease-out;
@@ -129,15 +136,17 @@ p{
 } 
 
 /* configurações da barra de navegação*/
+
 nav{
     display: flex;
     align-items: center;  
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background: #085278;
     height: 10vh;
     width: 100%;
     position: absolute;
+    
 }
 .nav-list{
     display: flex;
@@ -165,6 +174,7 @@ footer{
     background-color: #848484;
     color: #BEEDCB;
     font-size: 18px;
+    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .footer-content{
     display: flex;
@@ -176,4 +186,5 @@ footer{
     color: #ffffff;
     font-size: large;
     list-style: none;
+    justify-content: space-around;
 }
