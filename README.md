@@ -5,6 +5,8 @@ Visando mitigar a insegurança nas condições do transporte, a falta de informa
 
 ### O problema
 Através de pesquisa de mercado, é possível encontrar diversas soluções de segurança e monitoramento de transporte de cargas. Um ponto fraco facilmente perceptível em grande parte delas, se dá no fato de apenas se extenderem à localização geográfica dos caminhões, sem oferecerem maiores informações de segurança no que se diz respeito à carga em si, trazendo pontos de fragilidade, imprecisão e incerteza à logística de transporte no agronegócio.
+Alto custo final de logística  
+
 
 ### Objetivo
 A finalidade principal da solução é trazer o monitoramento de dados referentes à temperatura, umidade, níveis de gases, balanço e trepidações da carga durante seu trajeto até seu destino final. A análise de dados é feita tanto durante a entrega, quanto posteriormente, para não só monitorar a carga, como também para identificar falhas e pontos fracos a fim de melhor administrar a logística de transporte.
@@ -36,6 +38,8 @@ Durante a fase de desenvolvimento são produzidos os códigos e todos os outros 
 Durante a fase de teste as funcionalidades passam por uma sessão de QA, onde bugs e fragilidades são detectadas e corrigidas. Ao atingirem o nivel necessário de satisfação são enviados para a branch main.
 #### Produção
 A produção é representada pela branch main e guarda todo o código desenvolvido e testado pela equipe.
+
+
 ### Ferramentas utilizadas
 
 |Função    | Plataforma  | Link de Acesso |
@@ -47,7 +51,27 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | Editor de código | Visual Studio Code| [visualstudio.com](https://code.visualstudio.com/)|
 
 
+### Tecnológias utilizadas
+
+| Nome   | Plataforma | 
+|---------------------|--------------------------|
+| HTML | Visual Studio Code|
+| CSS |Visual Studio Code| 
+|JavaScript | Visual Studio Code|
+| My SQL | Visual Studio Code | 
+| Google Fontes |fonts.google.com|
+| Bootstrap| bootstrap.com|
+| Canvasjs | canvas.js.com|
+
+
+
 ## Wireframes
+
+<img src="/img-documentacao/Dashboard.png" alt="Dashboard" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/Login.png" alt="Login" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/landing.png" alt="landing" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/sobre.png" alt="sobre" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/contato.png" alt="contato" style="height: 40%; width:40%;"/>
 
 ## Requisitos Funcionais
 
@@ -70,3 +94,14 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 |RNF-3  |O sistema deve funcionar nos principais navegadores                                                                                  |     ALTA |
 |RNF-4  |As requisições devem ser leves para funcionar bem em áreas mais remotas                                                              |     ALTA |
 |RNF-5  |O formulário de registro de usuário tem que ser de fácil preenchimento e compreensão                                                 |   MÉDIO  |
+
+
+## Modelagem do Processo de Negócio
+
+Análise da Situação Atual
+
+
+Descrição Geral da Proposta
+
+
+
