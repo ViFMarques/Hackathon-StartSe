@@ -111,7 +111,7 @@ h1 {
    width: 100%;
 }
  
-/* Página inicial*/
+/* Páginas*/
 
 .pages {
    background-size:cover;
@@ -134,14 +134,19 @@ h1 {
 
 .text {
    min-height: 100vh;
-   width: 50%;
-   margin-left: 3em ;
-   display: flex;
-   align-items: center;
-   justify-content: center;
    font-family: 'Inter',sans-serif;
    font-weight: 700;
    color: #085278;
+}
+
+/* Página inicial*/
+
+#initial_text {
+  width: 50%;
+  margin-left: 3em ; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #initial_text h2 {
@@ -183,8 +188,50 @@ h1 {
    height: 100vh;
 }
 
-/*Sobre nós*/
+/*Sobre nós e serviços*/
 
+.text h1{
+   text-align: center;
+   margin-bottom: 250px;  
+}
+
+.text h2{
+   margin-bottom: 30px;
+}
+
+.text p{
+   text-align: justify;
+}
+
+#about_us_page{
+   background-color: #DCDCDC;
+   padding-top: 50px;
+}
+
+#about_us_title{
+   margin-right: 45%;
+}
+
+#about_us_img{
+   float: left;
+   margin-top: 18%;
+   margin-left: 28px;
+}
+
+.about_us_info {
+ width: 50%;
+ margin-left: 40%;
+ text-align: right;
+}
+
+#services_page {
+   padding-top: 50px;
+   background-image: url(./image/services.png);
+}
+.services_info{
+   width: 50%;
+   margin-left: 100px;
+}
 
 /*Formulário*/
 #form {
