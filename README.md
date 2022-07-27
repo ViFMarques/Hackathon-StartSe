@@ -49,6 +49,12 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 
 ## Wireframes
 
+<img src="/img-documentacao/Dashboard.png" alt="Dashboard" style="height: 50%; width:50%;"/>
+<img src="/img-documentacao/Login.png" alt="Login" style="height: 50%; width:50%;"/>
+<img src="/img-documentacao/landing.png" alt="landing" style="height: 50%; width:50%;"/>
+<img src="/img-documentacao/sobre.png" alt="sobre" style="height: 50%; width:50%;"/>
+<img src="/img-documentacao/contato.png" alt="contato" style="height: 50%; width:50%;"/>
+
 ## Requisitos Funcionais
 
 |ID    |Descrição do Requisito                                                                             |Prioridade|
