@@ -1,193 +1,283 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans serif;
 }
 
+html, 
 body {
-    position: relative;
-    background-image: url(mack.jpg);
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+
+h1 {
+   font-size: 2.5em;
+  }
+
+/*Cabeçalho*/
+
+ header{
+   position: fixed;
+   z-index: 10;
+   width: 100%;
+   font-family: 'Noto Sans', sans-serif;
+   background-color: #085278;
+ }
+
+ header .container {  
+   display: flex;
+   justify-content:space-around;
+   align-items: center;   
+
+   height: 80px;
+ }
+ 
+ header .container img{
+   display: block;
+   margin-left: 20px;
+   height: 50px;
+}
+
+ header nav ul{
     display: flex;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ }
+
+ header nav ul li {
+    list-style: none;
+ }
+
+ header nav ul li .menu_link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    transition: all 250ms linear 0s;
+ }
+
+ #login_link {
+   text-decoration: none;
+   color: white;
+ }
+
+ header nav ul li .menu_link::after {
+   content: '';
+   width: 0;
+   height: 0.2rem;
+   background-color: #784200;
+
+   position: relative;
+   bottom: -10px;
+
+   left: -10px;
+
+   display: block;
+
+   transition: width 300ms;
+ }
+
+ header nav ul li .menu_link:hover::after {
+   padding-inline: 10px;
+   width: 100%;
+}
+ 
+/* Páginas*/
+
+.pages {
+   background-size:cover;
+   background-position: top center;
+   position: relative;
+   padding-bottom: 5%;
+   z-index: 1;  
+}
+.pages::after{
+   content: '';
+    position:absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.text {
+   min-height: 100vh;
+   font-family: 'Inter',sans-serif;
+   font-weight: 700;
+   color: #085278;
+}
+
+/* Página inicial*/
+
+#initial_page {
+   background-image: url(./background-truck2.jpg);
+   height: 100vh;
+   background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antilaliased;
-    scroll-behavior: smooth;
- }
+}
 
+/* Configurações Main */
 
-/* configurações main */
+.containerCard{
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin-top: 8em;
+   min-height: 500px;
+   width: 100%;
+   height: 65%;
+   min-width: 100vh;
+}
 
- .container{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 60%;
-    margin-top: 5em;
-    margin-bottom: 10em;
-    min-width: 100vh;
- }
-
- .card{
-    background-color: #ffffff;
-    padding: 40px 30px 10px 30px;
-    border-radius: 10px;
-    box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.405);
- }
+.card{
+   background-color: #ffffff;
+   padding: 40px 30px 10px 30px;
+   border-radius: 10px;
+   box-shadow: 8px 7px 7px rgba(0, 0, 0, 0.405);
+   
+}
 
 h1{
-    text-align: center;
-    margin-bottom: 20px;
-    color: #784200;   
-    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   margin-bottom: 20px;
+   color: #784200;   
+   font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
 
 /* configurações dos input */
 
 .label-float input{
-    width: 100%;
-    padding: 5px 5px;
-    display: inline-block;
-    border: 0;
-    border-bottom: 2px solid #784200;
-    background-color: transparent;
-    outline: none;
-    min-width: 240px;
-    font-size: 16px;
-    transition: all .3s ease-out;
-    border-radius: 0;
- }
+   width: 100%;
+   padding: 5px 5px;
+   display: inline-block;
+   border: 0;
+   border-bottom: 2px solid #784200;
+   background-color: transparent;
+   outline: none;
+   min-width: 240px;
+   font-size: 16px;
+   transition: all .3s ease-out;
+   border-radius: 0;
+}
 .label-float{
-    position: relative;
-    padding-top: 13px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+   position: relative;
+   padding-top: 13px;
+   margin-top: 5%;
+   margin-bottom: 5%;
 }
 .label-float input:focus{
-    border-bottom: 2px solid #085278;
+   border-bottom: 2px solid #085278;
 }
 .label-float label{
-    color: #784200;
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-top: 13px;
-    transition: all .3s ease-out;
+   color: #784200;
+   pointer-events: none;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin-top: 13px;
+   transition: all .3s ease-out;
 }
 
-.label-float input:focus + label,
-.label-float input:valid + label{
-    font-size: 13px;
-    margin-top: 0;
-    color: #784200;
+.label-float input:focus + label
+{
+   font-size: 13px;
+   margin-top: 0;
+   color: #784200;
 }
-
+::placeholder { 
+   color: rgba(255, 0, 0, 0);
+   opacity: 1; 
+ }
+input:not(:placeholder-shown) + label{
+   font-size: 13px;
+   margin-top: 0;
+   color: #784200;
+ }
+ 
 /* configurações do botão*/
 
 button{
-    background-color: transparent;
-    transition: all .4s ease-out;
-    border: 2px solid;
-    color: #784200;
-    padding: 7px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 12pt;
-    margin: 4px 2px;
-    width: 40%;
+   background-color: transparent;
+   transition: all .4s ease-out;
+   border: 2px solid;
+   color: #784200;
+   padding: 7px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-weight: bold;
+   font-size: 12pt;
+   margin: 4px 2px;
+   width: 40%;
 }
 .button1{
-    border-radius: 5px;
+   border-radius: 5px;
 }
 button:hover{
-    background-color: #784200;
-    color: #ffffff;
-    border: 2px solid #784200;
+   background-color: #784200;
+   color: #ffffff;
+   border: 2px solid #784200;
 }
 .button{
-    display: flex;
-    justify-content: center;
-    
+   display: flex;
+   justify-content: center;
+   
 }
 hr{
-    margin-top: 10%;
-    margin-bottom: 10%;
+   margin-top: 10%;
+   margin-bottom: 10%;
 }
 p{
-    color: #784200;
-    font-size: 10pt;
-    text-align: center;
-    padding: 10px;
+   color: #784200;
+   font-size: 10pt;
+   text-align: center;
+   padding: 10px;
 }
 
 #social{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 70%;
-    overflow: hidden;
-    margin: auto;
-    padding: 10px; 
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 70%;
+   overflow: hidden;
+   margin: auto;
+   padding: 10px; 
 } 
 
-/* configurações da barra de navegação*/
-
-nav{
-    display: flex;
-    align-items: center;  
-    justify-content: center;
-    font-family: Ubuntu, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: #085278;
-    height: 10vh;
-    width: 100%;
-    position: absolute;
-    
-}
-.nav-list{
-    display: flex;
-    list-style: none;
-}
-
-.nav-list li{
-    display: flex;
-    letter-spacing: 2px;
-    margin-left: 32px;
-    align-items: center;
-    color: #ffffff;    
-}
-
-/* configurações do footer*/
+/*Footer*/
 
 footer{
-    padding-block: 30px;
-    background-color: #848484;
-    font-size: 12px;
-    color: #f8f8f8;
-    font-weight: normal;
-    
+   padding-block: 30px;
+   background-color: #848484;
+   font-size: 12px;
+   color: #f8f8f8;
+   font-weight: normal;
 }
- 
+
 footer img {
-    width: 200px;
+   width: 200px;
 }
 
 footer .container_footer{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    height: 100%;
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   height: 100%;
 }
 
 .information_footer{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
+   display: flex;
+   justify-content: space-around;
+   width: 60%;
 }
