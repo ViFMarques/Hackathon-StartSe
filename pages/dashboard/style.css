@@ -145,7 +145,7 @@
     max-width: 55rem;
     border-radius: 15px;
     padding-block: 25px;
-    padding-inline: 35px; 
+    padding-inline: 20px; 
     background-color: #D9D9D9;
     box-shadow: 5px 5px 15px -4px rgba(0, 0, 0, 0.418);
   
@@ -155,11 +155,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  
+
   /* ------------------------- driver --------------------- */  
   section#driver {
     align-items: flex-start;
-    padding-inline: 25px;
     gap: 20px;
   }
 
