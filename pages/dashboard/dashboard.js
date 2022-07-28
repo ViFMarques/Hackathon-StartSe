@@ -20,8 +20,8 @@
     document.getElementById('button2').onclick = function() {
         if (loopAtivo == false){
             startingVelocity = 60;
-            botaoPanico.innerHTML = "<strong>PRESSIONADO</strong>"
-            statusOperacao.innerHTML = "<strong>FURTO REPORTADO</strong>"
+            botaoPanico.innerHTML = "<strong>ATIVADO</strong>"
+            statusOperacao.innerHTML = "<strong>IRREGULAR</strong>"
             statusOperacao.style.color = "#FF5900";
             botaoPanico.style.color = "#FF5900";
             caso = 2;
