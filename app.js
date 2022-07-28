@@ -19,6 +19,10 @@ app.listen(PORT, () =>{
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
 
+app.use((res,req,next) => {
+    res.header('Access-Control-Allow-Origin', '*')
+});
+
 app.use('/', rotaInicio);
 app.use('/exemplo', rotaExemplo);
 app.use('/usuarios', rotaUsuario);
