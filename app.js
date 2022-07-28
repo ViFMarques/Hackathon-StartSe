@@ -13,7 +13,6 @@ const rotaUsuario = require('./routes/usuarios.js');
 
 app.use(express.json());
 app.use(cors());
-app.options('*', cors());
 
 app.listen(PORT, () =>{
     console.log(`Servidor rodando em http://localhost:${PORT}`);
