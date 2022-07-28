@@ -51,18 +51,19 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | Editor de código | Visual Studio Code| [visualstudio.com](https://code.visualstudio.com/)|
 
 
-### Tecnológias utilizadas
+### Tecnologias utilizadas
 
-| Nome   | Plataforma | 
-|---------------------|--------------------------|
-| HTML | Visual Studio Code|
-| CSS |Visual Studio Code| 
-|JavaScript | Visual Studio Code|
-| My SQL | Visual Studio Code | 
-| Google Fontes |fonts.google.com|
-| Bootstrap| bootstrap.com|
-| Canvasjs | canvas.js.com|
-
+| Função | Nome | Link de acesso |
+|---------------------|----------------|----------|
+| Esqueleto da página web| HTML | [developer.mozilla](https://developer.mozilla.org/pt-BR/docs/Web/HTML)|
+| Estilização da página web | CSS |[developer.mozilla](https://developer.mozilla.org/pt-BR/docs/Web/CSS)| 
+| Manipulação de dados pra página web |JavaScript |[javascript.com](https://www.javascript.com/)|
+| Fontes customizadas da página web |Google Fontes |[fonts.google.com](https://fonts.google.com/)|
+| ícones para a página web | Bootstrap Icons | [icons.getbootstrap.com](https://icons.getbootstrap.com/)|
+| Gráficos customizados para a página web | Canvasjs | [canvasjs.com](https://canvasjs.com/)|
+| Sistema de servidores nuvem | Heroku | [heroku.com](https://www.heroku.com/)|
+| Manipulação do banco de dados| Nodejs | [Nodejs](https://nodejs.org/en/)|
+| Banco de dados |My SQL |[mysql.com](https://www.mysql.com/)| 
 
 
 ## Wireframes
@@ -87,18 +88,19 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 
 ## Requisitos Não Funcionais
 
-|ID     |Descrição do Requisito                                                                                                               |Prioridade|
-|-------|-------------------------------------------------------------------------------------------------------------------------------------|----------|
-|RNF-1  |O sistema deve focado para o uso em desktop                                                                                          |     ALTA |
-|RNF-2  |O sistema deve funcionar nos principais sistemas operacionais                                                                        |     ALTA |
-|RNF-3  |O sistema deve funcionar nos principais navegadores                                                                                  |     ALTA |
-|RNF-4  |As requisições devem ser leves para funcionar bem em áreas mais remotas                                                              |     ALTA |
-|RNF-5  |O formulário de registro de usuário tem que ser de fácil preenchimento e compreensão                                                 |   MÉDIO  |
+|ID     |Descrição do Requisito                                                               |Prioridade|
+|-------|-------------------------------------------------------------------------------------|----------|
+|RNF-1  |O sistema deve focado para o uso em desktop                                          |     ALTA |
+|RNF-2  |O sistema deve funcionar nos principais sistemas operacionais                        |     ALTA |
+|RNF-3  |O sistema deve funcionar nos principais navegadores                                  |     ALTA |
+|RNF-4  |As requisições devem ser leves para funcionar bem em áreas mais remotas              |     ALTA |
+|RNF-5  |O formulário de registro de usuário tem que ser de fácil preenchimento e compreensão |   MÉDIO  |
 
 
 ## Modelagem do Processo de Negócio
 
 Análise da Situação Atual
+
 
 
 Descrição Geral da Proposta
