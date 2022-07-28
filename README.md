@@ -1,7 +1,7 @@
 # Internet das Coisas (IOT) como solução para a logística no agronegócio.
 
 ## Resumo
-Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes ou apodrecimento de perecíveis, donos de frota e transportadoras necessitam cada vez mais de sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados em tempo real das frotas e cargas, aplicando o uso de IOT para tais soluções. 
+Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes, furtos ou apodrecimento de perecíveis, donos de frota e transportadoras necessitam cada vez mais de um sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados em tempo real das frotas e cargas, aplicando o uso de IOT para tais soluções. 
 
 ### O problema
 Através de pesquisa de mercado, é possível encontrar diversas soluções de segurança e monitoramento de transporte de cargas. Um ponto fraco facilmente perceptível em grande parte delas, se dá no fato de apenas se extenderem à localização geográfica dos caminhões, sem oferecerem maiores informações de segurança no que se diz respeito à carga em si, trazendo pontos de fragilidade, imprecisão e incerteza à logística de transporte no agronegócio.
@@ -97,7 +97,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 |RNF-2  |O sistema deve funcionar nos principais sistemas operacionais                        |     ALTA |
 |RNF-3  |O sistema deve funcionar nos principais navegadores                                  |     ALTA |
 |RNF-4  |As requisições devem ser leves para funcionar bem em áreas mais remotas              |     ALTA |
-|RNF-5  |O formulário de login do usuário tem que ser de fácil preenchimento e compreensão    |    MÉDIO |
+|RNF-5  |Os campos de formulários devem ser de fácil preenchimento e compreensão para o usuário|    MÉDIO |
 
 
 ## Modelagem do Processo de Negócio
@@ -147,3 +147,30 @@ A página é exibida após realizar login.
 ### Requisitos Atendidos
 RF-2, RF-3, RF-4, RF-5, RF-6 e RNF-4.
 
+
+### Soluções
+Exibe os principais problemas que o produto atende e como tentamos resolve-los.
+
+<img src="/img-documentacao/soluções2.png" alt="soluções" style="height: 40%; width:40%;"/>
+
+### Instrução de Acesso
+A página é exibida após cliquar no botão "soluções" localizado na dashboard ou rolando a tela de dashboard para baixo.
+### Requisitos Atendidos
+RF-8.
+
+
+### Contato
+Exibe um campo de formulário por onde pode ser enviado uma mensagem para a empresa, também apresenta um footer com números de telefone, endereço e redes sociais.
+
+<img src="/img-documentacao/contato2.png" alt="contatos" style="height: 40%; width:40%;"/>
+
+### Instrução de Acesso
+A página é exibida após cliquar no botão "Teste grátis" localizado na dashboard ou rolando a tela de dashboard até o final.
+### Requisitos Atendidos
+RF-7 e RNF-5.
+
+
+
+## Apresentação do projeto
+
+## Referências
