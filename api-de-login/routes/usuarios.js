@@ -1,7 +1,41 @@
 const express = require('express');
 const router = express.Router();
-const mysql = require('../mysql.js').pool; // pegando o arquivo com a conexão
+const mysql = require('../database/mysql.js').pool; // pegando o arquivo com a conexão
 const bcrpyt = require('bcrypt'); // biblioteca para fazer a criptografar as senhas
+
+// ACESSO
+
+router.get('/', (req,res,next) => {
+    res.status(200).send({
+        mensagem: 'Bem vindo a minha API na área de usuários'
+    });
+});
+
+// MOSTRA TODOS USUARIOS
+
+router.get('/all', (req,res,next) => {
+
+    mysql.getConnection((error, conn) => {       // conectando ao db para fazer um post
+        
+        // realizando a query
+        conn.query(
+            'SELECT id, email FROM usuarios',    
+            (error, resultado, fields) => {
+                conn.release(); //libera a conexão após a query por estar usando createPool
+                if (error) {
+                    return res.status(500).send({
+                        error: error,
+                        response: null
+                    });
+                }
+
+                res.status(200).send({
+                    resultado
+                });
+            }
+        );
+    });
+});
 
 
 // CADASTRO
