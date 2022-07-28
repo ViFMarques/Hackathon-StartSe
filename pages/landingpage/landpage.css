@@ -81,36 +81,29 @@ button:hover {
    height: 50px;
 }
 
- header nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
- }
-
- header nav ul li {
-    list-style: none;
- }
-
- header nav ul li .menu_link {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 20px;
-    transition: all 250ms linear 0s;
- }
-
-.acess-btn {
-   padding: 10px 25px;
-   border-radius: 20px;
-
-   background-color: transparent;
-   border: 3px solid var(--secondery-color);
-   color: white;
-   font-weight: bold;
-   cursor: pointer;
+header li {
+   list-style: none;
 }
+
+header a {
+   color: rgb(206, 206, 206);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+header a:hover {
+   color: #FFFFFF;
+}
+
+nav.btn-nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 25px;
+}
+
+
+ 
 
 .acess-btn:hover {
    background-color: white;
@@ -135,10 +128,10 @@ button:hover {
    color: white;
  }
 
- header nav ul li .menu_link::after {
+ header .menu_link::after {
    content: '';
    width: 0;
-   height: 0.2rem;
+   height: 0.3rem;
    background-color: #784200;
 
    position: relative;
@@ -151,7 +144,7 @@ button:hover {
    transition: width 300ms;
  }
 
- header nav ul li .menu_link:hover::after {
+ header .menu_link:hover::after {
    padding-inline: 10px;
    width: 100%;
 }
@@ -483,7 +476,7 @@ section#contact div#contact-container {
 
 footer{
    padding-block: 30px;
-   background-color: var(--primary-color);  
+   background-color: #59717e;  
 }
 
 footer img {
