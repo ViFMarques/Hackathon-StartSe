@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +18,6 @@
           <img src="../../img/icon-user.svg" class="user-body">
           <p>Usuario</p>    
       </div>
-      
       <nav>
           <ul>
               <li class="item-1"><img src="../../img/dashboard.svg" class="menu-image">Dashboard</li>
@@ -28,6 +28,22 @@
           </ul>
       </nav>
     </aside>
+    <header class="header-mobile">
+      <nav>
+        <div class="mobile-menu">
+          <div class="line-1"></div>
+          <div class="line-2"></div>
+          <div class="line-3"></div>
+        </div>
+        <ul class="nav-list">
+            <li class="nav-item">Dashboard</li>
+            <li class="nav-item">Configurações</li>
+            <li class="nav-item">Dados</li>
+            <li class="nav-item">Conta</li>
+            <li class="nav-item">Sair</li>
+        </ul>
+    </nav>
+    </header>
     <main id="dashboard">
       <h1>DASHBOARD</h1>
       <div id="container">
@@ -106,4 +122,5 @@
 </body>
 <script src="dashboard.js"></script>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<script src="mobile-navbar.js"></script>
 </html>
