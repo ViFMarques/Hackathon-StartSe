@@ -82,7 +82,10 @@ router.post('/login', (req,res,next) => {
             
             bcrpyt.compare(req.body.senha, results[0].senha, (err, results) => {
                 if (results) {
-                    return res.status(201).send({ mensagem: 'Autenticado com sucesso' });
+                    return res.status(201).send({ 
+                        mensagem: 'Usuário criado com sucesso',
+                        email: req.body.email
+                    });
                 } else {
                     return res.status(401).send({ mensagem: 'Falha na autenticação, usuário ou senha inválidos' });
                 }
