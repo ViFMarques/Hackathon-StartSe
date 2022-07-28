@@ -21,6 +21,7 @@ app.listen(PORT, () =>{
 
 app.use((res,req,next) => {
     res.header('Access-Control-Allow-Origin', '*')
+    req.header('Access-Control-Allow-Origin', '*')
     next();
 });
 
