@@ -83,9 +83,7 @@ router.post('/login', (req,res,next) => {
             bcrpyt.compare(req.body.senha, results[0].senha, (err, results) => {
                 if (results) {
                     return res.status(201).send({ 
-                        mensagem: 'Usuário autenticado com sucesso',
-                        email: req.body.email
-                    });
+                        mensagem: 'Usuário autenticado com sucesso'});
                 } else {
                     return res.status(401).send({ mensagem: 'Falha na autenticação, usuário ou senha inválidos' });
                 }
