@@ -83,7 +83,7 @@ router.post('/login', (req,res,next) => {
             bcrpyt.compare(req.body.senha, results[0].senha, (err, results) => {
                 if (results) {
                     return res.status(201).send({ 
-                        mensagem: 'Usuário criado com sucesso',
+                        mensagem: 'Usuário autenticado com sucesso',
                         email: req.body.email
                     });
                 } else {
