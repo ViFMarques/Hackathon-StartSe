@@ -48,7 +48,25 @@
   color: white;
   font-weight: bold;
 }
-
+.header-mobile{
+  display: none;
+}
+.nav-item{
+  color: #ffffff;
+}
+.nav-list{
+  display: flex;
+}
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+.mobile-menu div{
+  width: 3.2rem;
+  height: 0.4rem;
+  background-color: var(--primary-color);
+  margin: 0.8rem;
+}
 .menu-lateral nav {
   margin-top: 40px;
   width: 100%;
