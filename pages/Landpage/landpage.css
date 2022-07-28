@@ -113,8 +113,9 @@ button:hover {
 }
 
 .acess-btn:hover {
-   background-color: var(--secondery-color);
-   color: white;
+   background-color: white;
+   color: var(--secondery-color);
+   border-color: transparent;
 }
 
 #button_login {
