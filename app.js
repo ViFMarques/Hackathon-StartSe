@@ -1,5 +1,6 @@
 const express = require('express');
 const PORT = process.env.PORT || 3000;
+const cors = require('cors');
 
 //teste
 
@@ -11,6 +12,7 @@ const rotaInicio = require('./routes/rota_inicio.js');
 const rotaUsuario = require('./routes/usuarios.js');
 
 app.use(express.json());
+app.use(cors());
 
 app.listen(PORT, () =>{
     console.log(`Servidor rodando em http://localhost:${PORT}`);
