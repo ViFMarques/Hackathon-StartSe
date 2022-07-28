@@ -82,7 +82,7 @@ router.post('/login', (req,res,next) => {
             
             bcrpyt.compare(req.body.senha, results[0].senha, (err, results) => {
                 if (results) {
-                    res.redirect('file:///C:/Users/Leonardo/Desktop/Curso%20StartSe/hackaton/fetch2.html')
+                    res.redirect('https://iotruck2.herokuapp.com/')
                     return res.status(201).send({ 
                         mensagem: 'Usuário autenticado com sucesso',
                         email: req.body.email
