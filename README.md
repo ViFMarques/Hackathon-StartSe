@@ -93,7 +93,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | Sistema de servidores nuvem | Heroku | [heroku.com](https://www.heroku.com/)|
 | Manipulação do banco de dados| Nodejs | [Nodejs](https://nodejs.org/en/)|
 | Banco de dados |My SQL |[mysql.com](https://www.mysql.com/)| 
-| Criação de faces | Essa pessoa não existe | [This person does not exist.com ](https://this-person-does-not-exist.com/en)|
+
 
 
 ## Wireframes
@@ -206,4 +206,5 @@ Zhibo Pang, Et al. Value-centric design of the internet-of-things solution for f
 CAMINHOS DA SAFRA DA PRODUÇÃO E EXPORTAÇÃO DE GRÃOS, EMBRAPA, 2015<br>
 EGER, Fabiano, MONITORAMENTO DE CAMINHÕES USANDO INTERNET DAS COISAS – Joinville, 2017- 67 p.<br>
 PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 6a. ed. – EUA: Project Management Institute, 2017. <br>
-PIB DO AGRONEGÓCIO, CEPEA - São Paulo, 2021
+PIB DO AGRONEGÓCIO, CEPEA - São Paulo, 2021 <br>
+[This person does not exist.com ](https://this-person-does-not-exist.com/en)
