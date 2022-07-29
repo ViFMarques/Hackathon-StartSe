@@ -1,6 +1,7 @@
-# Internet das Coisas (IOT) como solução para a logística no agronegócio. <img src="pages\img\logo.svg">
+# <img src="pages\img\logo.svg" alt="logotipo" style="height: 30%; width:30%;">
+## Internet das Coisas (IOT) como solução para a logística no agronegócio.
 
-## Resumo
+### Resumo
 Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes, furtos ou apodrecimento de perecíveis, dados comprovam que donos de frota e transportadoras necessitam cada vez mais de um sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados, tanto em tempo real, quanto posterior, das frotas e cargas, aplicando o uso de IOT para tais soluções. 
 
 ### O problema
@@ -12,7 +13,7 @@ Conforme [pesquisa realizada pela Fundação Dom Cabral com 130 empresas](https:
 Conforme [pesquisa realizada pela Fundação Dom Cabral](https://www.fdc.org.br/conhecimento/publicacoes/relatorio-de-pesquisa-33324), 43,8% dos investimentos planejados são destinados para setores de inovação e melhoria de processos. Seguindo esta demanda de mercado, a finalidade principal da solução é trazer o monitoramento de dados referentes à carga e seu motorista durante o trajeto até seu destino final. A análise de dados é feita tanto durante a entrega, quanto posteriormente, para não só monitorar a carga, como também para identificar falhas e pontos fracos a fim de melhor administrar a logística de transporte.
 
 
-### Público-alvo
+### O público-alvo
 O sistema tem como publico-alvo donos de frotas, transportadores e distribuidores.
 
 ### Tamanho de mercado
@@ -23,7 +24,7 @@ De acordo com um [estudo divulgado pela CEPEA](https://www.cepea.esalq.usp.br/br
 
 Nos quadros abaixo são apresentadas as personas definidas durante o processo de entendimento do problema.
 
-|<img src="/avatar3.jpg" width="100" height="100">   | **José Marques** <br> 38 anos   |
+|<img src="/img-documentacao/avatar3.jpg" width="100" height="100">   | **José Marques** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gerente de Transporte |
 |**Motivação** |<br> Deseja rebaixar desperdício de cargas e aumentar a eficiência das entregas|
@@ -31,7 +32,7 @@ Nos quadros abaixo são apresentadas as personas definidas durante o processo de
 
 <br><br>
 
-|<img src="/avatar1.jpg" width="100">  | **Josefa Gomes** <br> 36 anos   |
+|<img src="/img-documentacao/avatar1.jpg" width="100">  | **Josefa Gomes** <br> 36 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gestora de Logística |
 |**Motivação** |<br> Deseja ter maiores informações sobre suas cargas a fim de evitar perdas durante a rota|
@@ -137,14 +138,14 @@ Atingindo essa exata fraqueza detectada nas outras empresas, nosso foco é de au
 
 ## Programação de Funcionalidades
 
-Nesta seção apresentamos as telas desenvolvidas para cada uma das funcionalidades do sistema:
+Nesta seção apresentamos as telas finais desenvolvidas para cada uma das funcionalidades do sistema:
 
 
 
 ### Landing Page 
 A página apresenta informações sobre a solução do software, um botão de teste grátis e um botão de Login.
 
-<img src="/img-documentacao/landing2.png" alt="landing page" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/landing final.png" alt="landing page" style="height: 40%; width:40%;"/>
 
 ### Instrução de Acesso
 Para efetuar login clique em "acesse", para experimentar o produto ou entrar em contato com a empresa clique em "teste grátis", para conhecer quais problemas nosso produto ameniza, clique em "soluções".
@@ -155,7 +156,7 @@ RNF-1 ,RNF-2 e RNF-3.
 ### Login 
 A página Login apresenta um formulário com dois campos: email e senha, que permite que o usuário inicie uma sessão no sistema.
 
-<img src="/img-documentacao/login2.png" alt="login" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/login final.png" alt="login" style="height: 40%; width:40%;"/>
 
 ### Instrução de Acesso
 Na landing page clique no botão "acesse".
@@ -166,7 +167,7 @@ RF-1 e RNF-5.
 ### Dashboard
 Exibe uma barra lateral de funcionalidades e o monitoramento de dados, podendo ser vizualido o prazo para a entrega, nome do motorista, status da operação, botão do pânico, dados do veículo, localização, prazo de entrega, balanço e dados da carga(temperatura, umidade e nivel de gás etileno). 
 
-<img src="/img-documentacao/dashboard2.png" alt="Dashboard" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/dashboard final.png" alt="Dashboard" style="height: 40%; width:40%;"/>
 
 ### Instrução de Acesso
 A página é exibida após realizar login.
@@ -177,7 +178,8 @@ RF-2, RF-3, RF-4, RF-5, RF-6 e RNF-4.
 ### Soluções
 Exibe os principais problemas que o produto atende e como tentamos resolve-los.
 
-<img src="/img-documentacao/soluções2.png" alt="soluções" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/soluções final.png" alt="soluções" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/soluções final2.png" alt="soluções" style="height: 40%; width:40%;"/>
 
 ### Instrução de Acesso
 A página é exibida após cliquar no botão "soluções" localizado na dashboard ou rolando a tela de dashboard para baixo.
@@ -188,16 +190,14 @@ RF-8.
 ### Contato
 Exibe um campo de formulário por onde pode ser enviado uma mensagem para a empresa, também apresenta um footer com números de telefone, endereço e redes sociais.
 
-<img src="/img-documentacao/contato2.png" alt="contatos" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/contato final.png" alt="contato" style="height: 40%; width:40%;"/>
 
 ### Instrução de Acesso
 A página é exibida após cliquar no botão "Teste grátis" localizado na dashboard ou rolando a tela de dashboard até o final.
 ### Requisitos Atendidos
 RF-7 e RNF-5.
 
-
-
-## Apresentação do projeto
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Referências
 Zhibo Pang, Et al. Value-centric design of the internet-of-things solution for food supply chain: Value creation, sensor portfolio and information fusion - Kista - Stockholm, 2012.<br>
