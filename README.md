@@ -1,4 +1,4 @@
-# <img src="pages\img\logo.svg" alt="logotipo" style="height: 30%; width:30%;">
+# <img src="img\logo.svg" alt="logotipo" style="height: 30%; width:30%;">
 ## Internet das Coisas (IOT) como solução para a logística no agronegócio.
 
 ### Resumo
