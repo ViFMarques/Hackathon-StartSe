@@ -27,12 +27,12 @@ Nos quadros abaixo são apresentadas as personas definidas durante o processo de
 |<img src="/img-documentacao/avatar3.jpg" width="100" height="100">   | **José Marques** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gerente de Transporte |
-|**Motivação** |<br> Deseja rebaixar desperdício de cargas e aumentar a eficiência das entregas|
+|**Motivação** |<br> Deseja rebaixar desperdício de cargas e aumentar a eficiência das entregas         |
 |**Mais sobre**| Bacharel em Administração |
 
 <br><br>
 
-|<img src="/img-documentacao/avatar1.jpg" width="100">  | **Josefa Gomes** <br> 36 anos   |
+|<img src="/img-documentacao/avatar1.jpg" width="100" height="100">  | **Josefa Gomes** <br> 36 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gestora de Logística |
 |**Motivação** |<br> Deseja ter maiores informações sobre suas cargas a fim de evitar perdas durante a rota|
@@ -68,7 +68,7 @@ Durante a fase de teste as funcionalidades passam por uma sessão de QA, onde bu
 A produção é representada pela branch main e guarda todo o código desenvolvido e testado pela equipe.
 
 
-### Ferramentas utilizadas
+## Ferramentas utilizadas
 
 |Função    | Plataforma  | Link de Acesso |
 |------|-----------------------------------------|----|
@@ -79,7 +79,8 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | Editor de código | Visual Studio Code| [visualstudio.com](https://code.visualstudio.com/)|
 
 
-### Tecnologias utilizadas
+
+## Tecnologias utilizadas
 
 | Função | Nome | Link de acesso |
 |---------------------|----------------|----------|
@@ -92,6 +93,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | Sistema de servidores nuvem | Heroku | [heroku.com](https://www.heroku.com/)|
 | Manipulação do banco de dados| Nodejs | [Nodejs](https://nodejs.org/en/)|
 | Banco de dados |My SQL |[mysql.com](https://www.mysql.com/)| 
+| Criação de faces | Essa pessoa não existe | [This person does not exist.com ](https://this-person-does-not-exist.com/en)|
 
 
 ## Wireframes
@@ -101,6 +103,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 <img src="/img-documentacao/landing.png" alt="landing" style="height: 40%; width:40%;"/>
 <img src="/img-documentacao/sobre.png" alt="sobre" style="height: 40%; width:40%;"/>
 <img src="/img-documentacao/contato.png" alt="contato" style="height: 40%; width:40%;"/>
+
 
 ## Requisitos Funcionais
 
@@ -116,7 +119,6 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 |RF-8  |Permitir que o usuário conheça os beneficios/vantagens/soluções que o produto tem                            | ALTA |
 
 
-
 ## Requisitos Não Funcionais
 
 |ID     |Descrição do Requisito                                                               |Prioridade|
@@ -125,7 +127,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 |RNF-2  |O sistema deve funcionar nos principais sistemas operacionais                        |     ALTA |
 |RNF-3  |O sistema deve funcionar nos principais navegadores                                  |     ALTA |
 |RNF-4  |As requisições devem ser leves para funcionar bem em áreas mais remotas              |     ALTA |
-|RNF-5  |Os campos de formulários devem ser de fácil preenchimento e compreensão para o usuário|    MÉDIO |
+|RNF-5  |Os campos de formulários devem ser de fácil preenchimento e compreensão para o usuário|    ALTA |
 
 
 ## Modelagem do Processo de Negócio
@@ -136,10 +138,10 @@ No mercado atual, empresas como [Fretefy](https://www.fretefy.com.br/), [CargOn]
 ### Descrição Geral da Proposta
 Atingindo essa exata fraqueza detectada nas outras empresas, nosso foco é de aumentar as taxas de sucesso de entrega, com o monitoramento das condições da carga a ser entregue, utilizando tecnologias de monitoramento especificado das cargas.
 
+
 ## Programação de Funcionalidades
 
 Nesta seção apresentamos as telas finais desenvolvidas para cada uma das funcionalidades do sistema:
-
 
 
 ### Landing Page 
