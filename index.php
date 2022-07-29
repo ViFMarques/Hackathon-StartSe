@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="landpage.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="responsive-landpage.css" />
     <title>Homepage IoTruck</title>
   </head>
 
@@ -19,7 +19,10 @@
           </nav>
           <nav class="btn-nav">
             <li>
-              <a href="../login/index.html">Acesse</a>             
+              <a href="login.php">Acesse</a>             
+            </li>
+            <li>
+              <a href="register.php">Registre-se</a>             
             </li>
             <li>
               <a href="#contact"><button id="button_login">Teste grátis</button></a>
@@ -64,13 +67,13 @@
               </p>
             </div>
             <div>
-              <h3><strong> PERCURSO MAIS SEGURO </strong></h3>
+              <h3><strong> PERCURSO + SEGURO </strong></h3>
               <p>
                 Estamos de olho nos motoristas dos seus veículos e de prontidão para qualquer anormalidade que ocorra durante o percurso.
               </p>
             </div>
             <div>
-              <h3><strong> ANÁLISE DE DADOS</strong></h3>
+              <h3><strong> ANALÍSE DE DADOS</strong></h3>
               <p>
                 Atráves do uso de inteligência artificial analisamos os dados obtidos para aprimorar futuras entregas.
               </p>

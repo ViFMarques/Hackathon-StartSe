@@ -277,15 +277,11 @@ main .container-main {
 .problemns-cards {
    padding-top: 50px;
    display: grid;
-   grid-template-columns: 48% 48%;
+   grid-template-columns: 50% 50%;
    grid-template-rows: auto;
    gap: 40px;
-   align-items: flex-start;
+   align-items: center;
    justify-content: center;
-}
-
-problemns-cards div {
-max-width: var(--container-width);
 }
 
 .problemns-cards div > h3 {
@@ -449,7 +445,6 @@ section#contact div#contact-container {
    color: white;
    padding: 10px;   
    border-radius: 4px;
-   border-color: white;
  }
 
  section#contact input[type="radio"] {

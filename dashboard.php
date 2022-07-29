@@ -1,3 +1,13 @@
+<?php 
+
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header("Location: index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,7 +15,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../img/favicon.ico" type="img/x-icon" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="responsive.css">
     <title> Dashboard </title>
 </head>
@@ -25,7 +35,7 @@
               <li class="item-2"><img src="../img/config-completo.svg" class="menu-image">Config.</li>
               <li class="item-3"><img src="../img/dados.svg" class="menu-image">Dados</li>
               <li class="item-4"><img src="../img/conta.svg" class="menu-image">Conta</li>
-              <li class="item-5"><img src="../img/sair.svg" class="menu-image">Sair</li>
+              <a href="logout.php"><li class="item-5"><img src="../img/sair.svg" class="menu-image">Sair</li></a>
           </ul>
       </nav>
     </aside>
