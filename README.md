@@ -145,7 +145,7 @@ Nesta seção apresentamos as telas finais desenvolvidas para cada uma das funci
 ### Landing Page 
 A página apresenta informações sobre a solução do software, um botão de teste grátis e um botão de Login.
 
-<img src="/img-documentacao/landing final.png" alt="landing page" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/landing final.png" alt="landing page" style="height: 50%; width:50%;"/>
 
 ### Instrução de Acesso
 Para efetuar login clique em "acesse", para experimentar o produto ou entrar em contato com a empresa clique em "teste grátis", para conhecer quais problemas nosso produto ameniza, clique em "soluções".
@@ -156,7 +156,7 @@ RNF-1 ,RNF-2 e RNF-3.
 ### Login 
 A página Login apresenta um formulário com dois campos: email e senha, que permite que o usuário inicie uma sessão no sistema.
 
-<img src="/img-documentacao/login final.png" alt="login" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/login final.png" alt="login" style="height: 50%; width:50%;"/>
 
 ### Instrução de Acesso
 Na landing page clique no botão "acesse".
@@ -165,9 +165,9 @@ RF-1 e RNF-5.
 
 
 ### Dashboard
-Exibe uma barra lateral de funcionalidades e o monitoramento de dados, podendo ser vizualido o prazo para a entrega, nome do motorista, status da operação, botão do pânico, dados do veículo, localização, prazo de entrega, balanço e dados da carga(temperatura, umidade e nivel de gás etileno). 
+Exibe uma barra lateral de funcionalidades e o monitoramento de dados, podendo ser vizualido o prazo para a entrega, nome do motorista, status da operação, botão do pânico, dados do veículo, localização, balanço e dados da carga (temperatura, umidade e nivel de gás etileno). 
 
-<img src="/img-documentacao/dashboard final.png" alt="Dashboard" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/dashboard final.png" alt="Dashboard" style="height: 50%; width:50%;"/>
 
 ### Instrução de Acesso
 A página é exibida após realizar login.
@@ -176,10 +176,10 @@ RF-2, RF-3, RF-4, RF-5, RF-6 e RNF-4.
 
 
 ### Soluções
-Exibe os principais problemas que o produto atende e como tentamos resolve-los.
+Exibe informações sobre o software e no que ele é bom. 
 
-<img src="/img-documentacao/soluções final.png" alt="soluções" style="height: 40%; width:40%;"/>
-<img src="/img-documentacao/soluções final2.png" alt="soluções" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/soluções final.png" alt="soluções" style="height: 50%; width:50%;"/>
+<img src="/img-documentacao/soluções final2.png" alt="soluções" style="height: 50%; width:50%;"/>
 
 ### Instrução de Acesso
 A página é exibida após cliquar no botão "soluções" localizado na dashboard ou rolando a tela de dashboard para baixo.
@@ -188,9 +188,9 @@ RF-8.
 
 
 ### Contato
-Exibe um campo de formulário por onde pode ser enviado uma mensagem para a empresa, também apresenta um footer com números de telefone, endereço e redes sociais.
+Exibe um campo de formulário por onde é enviado uma solicitação para a empresa, também apresenta um footer com números de telefone, endereço e redes sociais.
 
-<img src="/img-documentacao/contato final.png" alt="contato" style="height: 40%; width:40%;"/>
+<img src="/img-documentacao/contato final.png" alt="contato" style="height: 50%; width:50%;"/>
 
 ### Instrução de Acesso
 A página é exibida após cliquar no botão "Teste grátis" localizado na dashboard ou rolando a tela de dashboard até o final.
