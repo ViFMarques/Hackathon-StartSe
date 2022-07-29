@@ -117,7 +117,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 |RF-6  |Permitir que o usuário visualize status/avisos sobre acidentes, altas temperatura da carga e furto de carga  | ALTA |
 |RF-7  |Permitir que o usuário entre em contato com a empresa                                                        | ALTA |
 |RF-8  |Permitir que o usuário conheça os beneficios/vantagens/soluções que o produto tem                            | ALTA |
-
+|RF-9  |Permitir que o usuário efetue registro na plataforma                                                         | ALTA |
 
 ## Requisitos Não Funcionais
 
@@ -164,6 +164,20 @@ A página Login apresenta um formulário com dois campos: email e senha, que per
 Na landing page clique no botão "acesse".
 ### Requisitos Atendidos
 RF-1 e RNF-5.
+
+
+
+### Registro
+A página permite fazer registro no banco de dados, com nome de usuário, e-mail e senha, além de ter um campo de verificação de senha.
+
+<img src="/img-documentacao/registro.png" alt=" registro" style="height: 50%; width:50%;"/>
+
+### Instrução de Acesso
+ Para se registrar clique em "Registre-se" na tela de landing page e você será redirecionado para a tela de registro.
+ 
+### Requisitos Atendidos
+RF-9.
+
 
 
 ### Dashboard
