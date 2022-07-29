@@ -91,7 +91,7 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 | ícones para a página web | Bootstrap Icons | [icons.getbootstrap.com](https://icons.getbootstrap.com/)|
 | Gráficos customizados para a página web | Canvasjs | [canvasjs.com](https://canvasjs.com/)|
 | Sistema de servidores nuvem | Heroku | [heroku.com](https://www.heroku.com/)|
-| Manipulação do banco de dados| Nodejs | [Nodejs](https://nodejs.org/en/)|
+| Manipulação do banco de dados| PHP |[php.com](https://www.php.net/)|
 | Banco de dados |My SQL |[mysql.com](https://www.mysql.com/)| 
 
 
