@@ -1,4 +1,4 @@
-# Internet das Coisas (IOT) como solução para a logística no agronegócio.
+# Internet das Coisas (IOT) como solução para a logística no agronegócio. <img src="pages\img\logo.svg">
 
 ## Resumo
 Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes, furtos ou apodrecimento de perecíveis, dados comprovam que donos de frota e transportadoras necessitam cada vez mais de um sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados, tanto em tempo real, quanto posterior, das frotas e cargas, aplicando o uso de IOT para tais soluções. 
