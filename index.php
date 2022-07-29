@@ -22,9 +22,6 @@
               <a href="login.php">Acesse</a>             
             </li>
             <li>
-              <a href="register.php">Registre-se</a>             
-            </li>
-            <li>
               <a href="#contact"><button id="button_login">Teste grátis</button></a>
             </li>
           </nav>       

@@ -58,6 +58,7 @@ if (isset($_POST['submit'])) {
                   </svg></button>
             </form>
             <a href="index.php"><p>Voltar</p></a>
+            <a href="register.php"><p>Não tem uma conta?</p></a>
           </main>    
     </div>    
         
