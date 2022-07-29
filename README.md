@@ -23,7 +23,7 @@ De acordo com um [estudo divulgado pela CEPEA](https://www.cepea.esalq.usp.br/br
 
 Nos quadros abaixo são apresentadas as personas definidas durante o processo de entendimento do problema.
 
-|<img src="/avatar3.jpg" width="100" height="100">   | **Marcos Nepomuceno** <br> 38 anos   |
+|<img src="/avatar3.jpg" width="100" height="100">   | **José Marques** <br> 38 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gerente de Transporte |
 |**Motivação** |<br> Deseja rebaixar desperdício de cargas e aumentar a eficiência das entregas|
@@ -31,7 +31,7 @@ Nos quadros abaixo são apresentadas as personas definidas durante o processo de
 
 <br><br>
 
-|<img src="/avatar1.jpg" width="100">  | **Josefa Mendes** <br> 36 anos   |
+|<img src="/avatar1.jpg" width="100">  | **Josefa Gomes** <br> 36 anos   |
 |:---------------------------------------:|:-------------------------------:|
 |**Ocupação** | Gestora de Logística |
 |**Motivação** |<br> Deseja ter maiores informações sobre suas cargas a fim de evitar perdas durante a rota|
