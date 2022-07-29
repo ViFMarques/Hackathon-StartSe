@@ -1,18 +1,43 @@
 # Internet das Coisas (IOT) como solução para a logística no agronegócio.
 
 ## Resumo
-Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes, furtos ou apodrecimento de perecíveis, donos de frota e transportadoras necessitam cada vez mais de um sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados em tempo real das frotas e cargas, aplicando o uso de IOT para tais soluções. 
+Visando mitigar a insegurança nas condições do transporte, a falta de informação sobre localização do caminhão e carga, além das inúmeras perdas do carregamento durante o trajeto, seja por meio de acidentes, furtos ou apodrecimento de perecíveis, dados comprovam que donos de frota e transportadoras necessitam cada vez mais de um sistemas de monitoramento e rastreamento. Diante de tais problemas, a solução criada vem com o objetivo de trazer uma análise de dados, tanto em tempo real, quanto posterior, das frotas e cargas, aplicando o uso de IOT para tais soluções. 
 
 ### O problema
-Através de pesquisa de mercado, é possível encontrar diversas soluções de segurança e monitoramento de transporte de cargas. Um ponto fraco facilmente perceptível em grande parte delas, se dá no fato de apenas se extenderem à localização geográfica dos caminhões, sem oferecerem maiores informações de segurança no que se diz respeito à carga em si, trazendo pontos de fragilidade, imprecisão e incerteza à logística de transporte no agronegócio.
-Alto custo final de logística  
+Em momentos economicamente delicados, como durante a pandemia de Covid-19, o corte de custos deixa de ser uma opção e se torna uma obrigação para que empresas consigam sobreviver no mercado.
+Conforme [pesquisa realizada pela Fundação Dom Cabral com 130 empresas](https://www.fdc.org.br/conhecimento/publicacoes/relatorio-de-pesquisa-33324), no agronegócio o gasto médio com logística representa 20,7% do faturamento das empresas e o fator de maior peso para o preço final da logística é o transporte.
 
 
 ### Objetivo
-A finalidade principal da solução é trazer o monitoramento de dados referentes à temperatura, umidade, níveis de gases, balanço e trepidações da carga durante seu trajeto até seu destino final. A análise de dados é feita tanto durante a entrega, quanto posteriormente, para não só monitorar a carga, como também para identificar falhas e pontos fracos a fim de melhor administrar a logística de transporte.
+Conforme [pesquisa realizada pela Fundação Dom Cabral](https://www.fdc.org.br/conhecimento/publicacoes/relatorio-de-pesquisa-33324), 43,8% dos investimentos planejados são destinados para setores de inovação e melhoria de processos. Seguindo esta demanda de mercado, a finalidade principal da solução é trazer o monitoramento de dados referentes à carga e seu motorista durante o trajeto até seu destino final. A análise de dados é feita tanto durante a entrega, quanto posteriormente, para não só monitorar a carga, como também para identificar falhas e pontos fracos a fim de melhor administrar a logística de transporte.
+
 
 ### Público-alvo
 O sistema tem como publico-alvo donos de frotas, transportadores e distribuidores.
+
+### Tamanho de mercado
+#### Grandes mercados, grandes demandas.
+De acordo com um [estudo divulgado pela CEPEA](https://www.cepea.esalq.usp.br/br/releases/pib-agro-cepea-pib-do-agro-cresce-8-36-em-2021-participacao-no-pib-brasileiro-chega-a-27-4.aspx), o setor do agronegócio alcançou participação de 27,4% no PIB brasileiro em 2021, o que, em números, representaria 2,38 trilhões de reais, tornando-o um mercado frutífero para novos negócios e investimentos.
+
+## Personas
+
+Nos quadros abaixo são apresentadas as personas definidas durante o processo de entendimento do problema.
+
+|<img src="/avatar3.jpg" width="100" height="100">   | **Marcos Nepomuceno** <br> 38 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Gerente de Transporte |
+|**Motivação** |<br> Deseja rebaixar desperdício de cargas e aumentar a eficiência das entregas|
+|**Mais sobre**| Bacharel em Administração |
+
+<br><br>
+
+|<img src="/avatar1.jpg" width="100">  | **Josefa Mendes** <br> 36 anos   |
+|:---------------------------------------:|:-------------------------------:|
+|**Ocupação** | Gestora de Logística |
+|**Motivação** |<br> Deseja ter maiores informações sobre suas cargas a fim de evitar perdas durante a rota|
+|**Mais sobre**| Superior em Logística |
+
+<br><br>
 
 ## Gerenciamento do projeto
 De acordo com a 6ª edição do PMBoK, as dez áreas constituintes dos pilares de gerenciamento de projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Seguindo essa linha de raciocínio, para concluir o projeto em tempo hábil, um bom manuseamento de cronograma aliado à distribuição de recursos elaborada de maneira eficiente mostrou-se um passo essencial.
@@ -26,14 +51,16 @@ Em conformidade com a lógica apresentada, dividimos nosso desenvolvimento em um
 graph LR
 A[Desenvolvimento] --> B[Teste]
 B --> C[Produção]
+G(api)
 D(desenvolvimento)
 E(teste)
 F(main)
+G --> E
 D --> E
 E --> F
 ```
 #### Desenvolvimento
-Durante a fase de desenvolvimento são produzidos os códigos e todos os outros artefatos necessários para a realização do projeto, dentro da branch desenvolvimento. Toda funcionalidade concluida é enviada para a brench teste.
+Durante a fase de desenvolvimento são produzidos os códigos e todos os outros artefatos necessários para a realização do projeto, dentro das branches desenvolvimento e api. Toda funcionalidade concluida é enviada para a brench teste.
 #### Teste
 Durante a fase de teste as funcionalidades passam por uma sessão de QA, onde bugs e fragilidades são detectadas e corrigidas. Ao atingirem o nivel necessário de satisfação são enviados para a branch main.
 #### Produção
@@ -76,8 +103,8 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 
 ## Requisitos Funcionais
 
-|ID       | Descrição do Requisito                                                            |Prioridade|
-|---------|----------             |------|
+|ID       | Descrição do Requisito                                                                               |Prioridade|
+|---------|----------------------------------------------------------------------------------------------------------|------|
 |RF-1  |Permitir que o usuário efetue login                                                                          | ALTA |
 |RF-2  |Permitir que o usuário efetue logout                                                                         | ALTA |
 |RF-3  |Permitir que o usuário visualize a temperatura da carga                                                      | ALTA |
@@ -102,12 +129,11 @@ A produção é representada pela branch main e guarda todo o código desenvolvi
 
 ## Modelagem do Processo de Negócio
 
-Análise da Situação Atual
+### Análise da Situação Atual
+No mercado atual, empresas como [Fretefy](https://www.fretefy.com.br/), [CargOn](https://cargon.com.br/) e [Gestran](https://gestran.com.br/) trazem soluções voltadas para lógistica de forma geral. A maior parte das soluções oferecidas são voltadas para o gerenciamento de entregas e ativos, cuidando da gestão de inventário, monitoramento da localização da entrega e desburocratização, sem nenhum enfoque nas condições da carga em si.
 
-
-
-Descrição Geral da Proposta
-
+### Descrição Geral da Proposta
+Atingindo essa exata fraqueza detectada nas outras empresas, nosso foco é de aumentar as taxas de sucesso de entrega, com o monitoramento das condições da carga a ser entregue, utilizando tecnologias de monitoramento especificado das cargas.
 
 ## Programação de Funcionalidades
 
@@ -174,3 +200,8 @@ RF-7 e RNF-5.
 ## Apresentação do projeto
 
 ## Referências
+Zhibo Pang, Et al. Value-centric design of the internet-of-things solution for food supply chain: Value creation, sensor portfolio and information fusion - Kista - Stockholm, 2012.<br>
+CAMINHOS DA SAFRA DA PRODUÇÃO E EXPORTAÇÃO DE GRÃOS, EMBRAPA, 2015<br>
+EGER, Fabiano, MONITORAMENTO DE CAMINHÕES USANDO INTERNET DAS COISAS – Joinville, 2017- 67 p.<br>
+PMI. Um guia do conhecimento em gerenciamento de projetos. Guia PMBOK® 6a. ed. – EUA: Project Management Institute, 2017. <br>
+PIB DO AGRONEGÓCIO, CEPEA - São Paulo, 2021
